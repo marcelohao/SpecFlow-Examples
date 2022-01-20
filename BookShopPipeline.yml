@@ -1,0 +1,9 @@
+pool:
+  vmImage: 'windows-2022'
+
+steps:    
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'build'
+    projects: |
+      ASP.NET-MVC/BookShop/BookShop.sln
