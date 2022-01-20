@@ -4,6 +4,6 @@ pool:
 steps:    
 - task: DotNetCoreCLI@2
   inputs:
-    command: 'build'
+    command: 'test'
     projects: |
       ASP.NET-MVC/BookShop/BookShop.sln
