@@ -7,3 +7,12 @@ steps:
     command: 'test'
     projects: |
       ASP.NET-MVC/BookShop/BookShop.sln
+
+- task: SpecFlowPlus@0
+  displayName: 'LivingDoc'
+  inputs:
+    generatorSource: 'FeatureFolder'
+    projectFilePath: 'ASP.NET-MVC/BookShop/BookShop.AcceptanceTests'
+    projectName: 'Bookshop'
+    testExecutionJson: 'ASP.NET-MVC/BookShop/BookShop.AcceptanceTests/**/TestExecution.json'
+    projectLanguage: 'en'
