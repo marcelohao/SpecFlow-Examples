@@ -8,3 +8,5 @@ To get started follow our step-by-step guide at https://docs.specflow.org/projec
 **Demo**
 
 Try out our [BookShop Demo](https://specflowoss.github.io/LivingDoc-Demo/BookShop.html#/document/Standalone/feature/104755214736bc2774d962ff13b5004e) which is hosted on GitHub Pages.
+
+Changed
